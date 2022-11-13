@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/contacts.css" />
+    <title>Contacts</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <a class="logo" href="#">
+          <img class="nav__img" src="./img/logo.png" alt="logo" />
+        </a>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="./index.html" class="nav__link">Главная</a>
+          </li>
+          <li class="nav__item">
+            <a href="./shop.html" class="nav__link">Магазин</a>
+          </li>
+          <li class="nav__item">
+            <a href="./about.html" class="nav__link">О бренде</a>
+          </li>
+          <li class="nav__item">
+            <a href="./contacts.html" class="nav__link">Контакти</a>
+          </li>
+        </ul>
+
+        <a class="nav__phone" href="to:+3808235412">+380-823-54-12</a>
+        <a class="nav__cart" href="#"></a>
+        <button class="menu">
+          <span class="menu__item">Menu</span>
+        </button>
+      </nav>
+    </div>
+    <main>
+      <section class="contacts">
+        <div class="container">
+          <h1 class="page-title">Контакты</h1>
+          <ul class="crumbs">
+            <li class="crumbs__item">
+              <a class="crumbs__link" href="./index.html">Главная</a>
+            </li>
+            <li class="crumbs__item">Контакты</li>
+          </ul>
+          <div class="image">
+            <img
+              class="contacts__img"
+              src="./img/bigcard.jpg"
+              alt="bigcard"
+            />
+          </div>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <p class="contacts__name">Телефон</p>
+              <p class="contacts__value">+7 (495) 823-54-12</p>
+            </li>
+            <li class="contacts__item">
+              <p class="contacts__name">E-mail</p>
+              <p class="contacts__value">info@sitename.com</p>
+            </li>
+            <li class="contacts__item">
+              <p class="contacts__name">Адрес</p>
+              <p class="contacts__value">г. Москва, 3-я улица Строителей, 25</p>
+            </li>
+          </ul>
+          <p class="contacts__small-title">Напишите нам</p>
+          <form class="contacts__form">
+            <input class="contacts__input" type="text" placeholder="Имя" />
+            <input class="contacts__input" type="text" placeholder="E-mail" />
+            <input class="contacts__input" type="text" placeholder="Телефон" />
+            <textarea
+              class="contacts__textarea"
+              cols="30"
+              rows="10"
+              placeholder="Сообщение"
+            ></textarea>
+          </form>
+          <button class="primary__btn">Отправить</button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__nav">
+          <a class="logo" href="#">
+            <img class="nav__img" src="./img/logo.svg" alt="logo" />
+          </a>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">Главная</a>
+            </li>
+            <li class="nav__item">
+              <a href="./shop.html" class="nav__link">Магазин</a>
+            </li>
+            <li class="nav__item">
+              <a href="/about.html" class="nav__link">О бренде</a>
+            </li>
+            <li class="nav__item">
+              <a href="/contacts.html" class="nav__link">Контакти</a>
+            </li>
+          </ul>
+          <div class="footer__contacts">
+            <a class="footer__phone" href="to:+3808235412">+380-823-54-12</a>
+            <a class="footer__mail" href="mailto:hello@womazing.com"
+              >hello@womazing.com</a
+            >
+          </div>
+        </div>
+
+        <div class="footer__items">
+          <ul class="footer__copy">
+            <li class="footer__copy-item">
+              <p class="footer__copyright">© Все права защищены</p>
+            </li>
+            <li class="footer__copy-item">
+              <a class="footer__link" href="#">Политика конфиденциальности</a>
+            </li>
+            <li class="footer__copy-item">
+              <a class="footer__link" href="#">Публичная оферта</a>
+            </li>
+          </ul>
+
+          <ul class="footer__items-clothing">
+            <li class="footer__clothing">
+              <a class="footer__link" href="#">Пальто</a>
+            </li>
+            <li class="footer__clothing">
+              <a class="footer__link" href="#">Свитшоты</a>
+            </li>
+            <li class="footer__clothing">
+              <a class="footer__link" href="#">Кардиганы</a>
+            </li>
+            <li class="footer__clothing">
+              <a class="footer__link" href="#">Толстовки</a>
+            </li>
+          </ul>
+
+          <div class="footer__social-items">
+            <ul class="footer__social">
+              <li class="footer__social-item">
+                
+                <a class="footer__social-link footer--instagram" href="#"
+                  >instagram</a
+                >
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link footer--facebook" href="#"
+                  >facebook</a
+                >
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link footer--twitter" href="#"
+                  >twitter</a
+                >
+              </li>
+            </ul>
+            <img
+              class="footer__pay"
+              src="./img/icons/visa-mastercard.png"
+              alt="visa-mastercard"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

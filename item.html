@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/item.css" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <title>Item</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <a class="logo" href="./index.html">
+          <img class="nav__img" src="./img/logo.svg" alt="logo" />
+        </a>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="./index.html" class="nav__link">Главная</a>
+          </li>
+          <li class="nav__item">
+            <a href="./shop.html" class="nav__link">Магазин</a>
+          </li>
+          <li class="nav__item">
+            <a href="./about.html" class="nav__link">О бренде</a>
+          </li>
+          <li class="nav__item">
+            <a href="./contacts.html" class="nav__link">Контакти</a>
+          </li>
+        </ul>
+
+        <a class="nav__phone" href="to:+3808235412">+380-823-54-12</a>
+        <a class="nav__cart" href="#"></a>
+        <button class="menu">
+          <span class="menu__item">Menu</span>
+        </button>
+      </nav>
+    </div>
+    <main>
+      <section class="item">
+        <div class="container">
+          <h1 class="page-title">Свитшот Sweet Shot</h1>
+          <ul class="crumbs">
+            <li class="crumbs__item">
+              <a class="crumbs__link" href="./index.html">Главная</a>
+            </li>
+            <li class="crumbs__item">
+              <a class="crumbs__link" href="./index.html">Свитшоты</a>
+            </li>
+            <li class="crumbs__item">Свитшот Sweet Shot</li>
+          </ul>
+
+          <div class="item__inner">
+            <img
+              class="item__img"
+              src="./img/home/collection/three.jpg"
+              alt="woman"
+            />
+            <form class="item__form">
+              <div class="item__price">
+                <span class="item__price-new">$311</span>
+                <span class="item__price-old">$450</span>
+              </div>
+              <p class="item__size">Выберите размер</p>
+              <div class="item__size-list">
+                <lable class="item__lable">
+                  <input
+                    class="item__input item__lable--s"
+                    type="radio"
+                    name="size"
+                    value="s"
+                  />
+                </lable>
+                <lable class="item__lable">
+                  <input
+                    class="item__input item__lable--m"
+                    type="radio"
+                    name="size"
+                    value="m"
+                    checked
+                  />
+                </lable>
+                <lable class="item__lable">
+                  <input
+                    class="item__input item__lable--l"
+                    type="radio"
+                    name="size"
+                    value="l"
+                  />
+                </lable>
+                <lable class="item__lable">
+                  <input
+                    class="item__input item__lable--xl"
+                    type="radio"
+                    name="size"
+                    value="xl"
+                  />
+                </lable>
+                <lable class="item__lable">
+                  <input
+                    class="item__input item__lable--xxl"
+                    type="radio"
+                    name="size"
+                    value="xl"
+                  />
+                </lable>
+              </div>
+
+              <p class="item__color">Выберите цвет</p>
+              <div class="item__color-list">
+                <lable class="item__lable-color">
+                  <input
+                    class="item__input-color item__input--purple"
+                    type="radio"
+                    name="color"
+                    value="purple"
+                  />
+                </lable>
+                <lable class="item__lable-color">
+                  <input
+                    class="item__input-color item__input--blue"
+                    type="radio"
+                    name="color"
+                    value="blue"
+                  />
+                </lable>
+                <lable class="item__lable-color">
+                  <input
+                    class="item__input-color item__input--pink"
+                    type="radio"
+                    name="color"
+                    value="pink"
+                    checked
+                  />
+                </lable>
+                <lable class="item__lable-color">
+                  <input
+                    class="item__input-color item__input--bodily"
+                    type="radio"
+                    name="color"
+                    value="bodily"
+                  />
+                </lable>
+              </div>
+
+              <input class="primary__amount" type="number" value="1" />
+              <button class="primary__btn">Добавить в корзину</button>
+            </form>
+          </div>
+
+          <h2 class="title">Новая коллекция</h2>
+          <ul class="collection__list">
+            <li class="collection__item item--size">
+              <arcticle class="collection__arcticle">
+                <a href="#" class="collection__link">
+                  <div class="collection__image">
+                    <img
+                      class="collection__img"
+                      src="./img/home/collection/one.jpg"
+                      alt="photo collection"
+                    />
+                  </div>
+                </a>
+                <p class="collection__item-title">Футболка USA</p>
+                <div class="collection__price">
+                  <p class="collection__old-price">$229</p>
+                  <p class="collection__new-price">$129</p>
+                </div>
+              </arcticle>
+            </li>
+            <li class="collection__item item--size">
+              <arcticle class="collection__arcticle">
+                <a href="#" class="collection__link">
+                  <div class="collection__image">
+                    <img
+                      class="collection__img"
+                      src="./img/home/collection/two.jpg"
+                      alt="photo collection"
+                    />
+                  </div>
+                </a>
+                <p class="collection__item-title">Купальник Glow</p>
+                <div class="collection__price">
+                  <p class="collection__new-price">$129</p>
+                </div>
+              </arcticle>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__nav">
+          <a class="logo" href="#">
+            <img class="nav__img" src="./img/logo.svg" alt="logo" />
+          </a>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">Главная</a>
+            </li>
+            <li class="nav__item">
+              <a href="./shop.html" class="nav__link">Магазин</a>
+            </li>
+            <li class="nav__item">
+              <a href="/about.html" class="nav__link">О бренде</a>
+            </li>
+            <li class="nav__item">
+              <a href="/contacts.html" class="nav__link">Контакти</a>
+            </li>
+          </ul>
+          <div class="footer__contacts">
+            <a class="footer__phone" href="to:+3808235412">+380-823-54-12</a>
+            <a class="footer__mail" href="mailto:hello@womazing.com"
+              >hello@womazing.com</a
+            >
+          </div>
+        </div>
+
+        <div class="footer__items">
+          <ul class="footer__copy">
+            <li class="footer__copy-item">
+              <p class="footer__copyright">© Все права защищены</p>
+            </li>
+            <li class="footer__copy-item">
+              <a class="footer__link" href="#">Политика конфиденциальности</a>
+            </li>
+            <li class="footer__copy-item">
+              <a class="footer__link" href="#">Публичная оферта</a>
+            </li>
+          </ul>
+
+          <ul class="footer__items-clothing">
+            <li class="footer__clothing">
+              <a class="footer__link" href="#">Пальто</a>
+            </li>
+            <li class="footer__clothing">
+              <a class="footer__link" href="#">Свитшоты</a>
+            </li>
+            <li class="footer__clothing">
+              <a class="footer__link" href="#">Кардиганы</a>
+            </li>
+            <li class="footer__clothing">
+              <a class="footer__link" href="#">Толстовки</a>
+            </li>
+          </ul>
+
+          <div class="footer__social-items">
+            <ul class="footer__social">
+              <li class="footer__social-item">
+                <a class="footer__social-link footer--instagram" href="#"
+                  >instagram</a
+                >
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link footer--facebook" href="#"
+                  >facebook</a
+                >
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link footer--twitter" href="#"
+                  >twitter</a
+                >
+              </li>
+            </ul>
+            <img
+              class="footer__pay"
+              src="./img/footer/visa.png"
+              alt="visa-mastercard"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
+
